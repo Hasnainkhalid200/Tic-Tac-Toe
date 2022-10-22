@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        
+        <div class="display">
+            <table>
+                <tr>
+                    <td>
+        <button class="btnDisplay" id="btn1" onclick="play('btn1')"></button>
+    </td>
+    <td>
+        <button class="btnDisplay"  id="btn2" onclick="play('btn2')"></button>
+    </td>
+    <td>
+        <button class="btnDisplay"  id="btn3" onclick="play('btn3')"></button>
+    </td>
+</tr>
+        <tr>
+            <td>
+        <button class="btnDisplay" id="btn4" onclick="play('btn4')"></button>
+    </td>
+    <td>
+        <button class="btnDisplay"  id="btn5" onclick="play('btn5')"></button>
+    </td>
+    <td>
+        <button class="btnDisplay"  id="btn6" onclick="play('btn6')"></button> 
+    </td>
+    </tr>
+        
+    <tr>
+        <td>
+        <button class="btnDisplay"  id="btn7" onclick="play('btn7')"></button>
+    </td>
+    <td>
+        <button class="btnDisplay"  id="btn8" onclick="play('btn8')"></button>
+    </td>
+    <td>
+        <button class="btnDisplay"  id="btn9" onclick="play('btn9')"></button>
+    </td>
+    </tr>
+    </div>
+</table>
+</div>
+
+<div class="action">
+    <button onclick="reset()">Reset</button>
+</div>
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btnDisplay{
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    margin-top:3px ;
+}
+
+.action{
+    margin-top: 10px;
+}
